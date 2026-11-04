@@ -1,0 +1,3823 @@
+{
+ "r1": {
+  "ia": 12,
+  "ib": 20,
+  "len_a": 155,
+  "len_b": 116,
+  "titulo_a": "A meta systematic review of artificial intelligence in higher education: a call for increased ethics, collaboration, and rigour",
+  "titulo_b": "Systematic review of research on artificial intelligence applications in higher education - where are the educators?",
+  "abs_a": "Although the field of Artificial Intelligence in Education (AIEd) has a substantial history as a research domain, never before has the rapid evolution of AI applications in education sparked such prominent public discourse. Given the already rapidly growing AIEd literature base in higher education, now is the time to ensure that the field has a solid research and conceptual grounding. This review of reviews is the first comprehensive meta review to explore the scope and nature of AIEd in higher education (AIHEd) research, by synthesising secondary research (e.g., systematic reviews), indexed in the Web of Science, Scopus, ERIC, EBSCOHost, IEEE Xplore, ScienceDirect and ACM Digital Library, or captured through snowballing in OpenAlex, ResearchGate and Google Scholar. Reviews were included if they synthesised applications of AI solely in formal higher or continuing education, were published in English between 2018 and July 2023, were journal articles or full conference papers, and if they had a method section 66 publications were included for data extraction and synthesis in EPPI Reviewer, which were predominantly systematic reviews (66.7%), published by authors from North America (27.3%), conducted in teams (89.4%) in mostly domestic-only collaborations (71.2%). Findings show that these reviews mostly focused on AIHEd generally (47.0%) or Profiling and Prediction (28.8%) as thematic foci, however key findings indicated a predominance of the use of Adaptive Systems and Personalisation in higher education. Research gaps identified suggest a need for greater ethical, methodological, and contextual considerations within future research, alongside interdisciplinary approaches to AIHEd application. Suggestions are provided to guide future primary and secondary research.",
+  "abs_b": "According to various international reports, Artificial Intelligence in Education (AIEd) is one of the currently emerging fields in educational technology. Whilst it has been around for about 30 years, it is still unclear for educators how to make pedagogical advantage of it on a broader scale, and how it can actually impact meaningfully on teaching and learning in higher education. This paper seeks to provide an overview of research on AI applications in higher education through a systematic review. Out of 2656 initially identified publications for the period between 2007 and 2018, 146 articles were included for final synthesis, according to explicit inclusion and exclusion criteria. The descriptive results show that most of the disciplines involved in AIEd papers come from Computer Science and STEM, and that quantitative methods were the most frequently used in empirical studies. The synthesis of results presents four areas of AIEd applications in academic support services, and institutional and administrative services: 1. profiling and prediction, 2. assessment and evaluation, 3. adaptive systems and personalisation, and 4. intelligent tutoring systems. The conclusions reflect on the almost lack of critical reflection of challenges and risks of AIEd, the weak connection to theoretical pedagogical perspectives, and the need for further exploration of ethical and educational approaches in the application of AIEd in higher education.",
+  "tok_a": [
+   "field",
+   "artificial",
+   "intelligence",
+   "education",
+   "aied",
+   "substantial",
+   "history",
+   "research",
+   "domain",
+   "never",
+   "rapid",
+   "evolution",
+   "ai",
+   "application",
+   "education",
+   "sparked",
+   "prominent",
+   "public",
+   "discourse",
+   "given",
+   "already",
+   "rapidly",
+   "growing",
+   "aied",
+   "literature",
+   "base",
+   "higher",
+   "education",
+   "now",
+   "time",
+   "ensure",
+   "field",
+   "solid",
+   "research",
+   "conceptual",
+   "grounding",
+   "review",
+   "review",
+   "comprehensive",
+   "meta",
+   "review",
+   "explore",
+   "scope",
+   "nature",
+   "aied",
+   "higher",
+   "education",
+   "aihed",
+   "research",
+   "synthesising",
+   "secondary",
+   "research",
+   "systematic",
+   "review",
+   "indexed",
+   "web",
+   "science",
+   "scopus",
+   "eric",
+   "ebscohost",
+   "ieee",
+   "xplore",
+   "sciencedirect",
+   "acm",
+   "digital",
+   "library",
+   "captured",
+   "snowballing",
+   "openalex",
+   "researchgate",
+   "google",
+   "scholar",
+   "review",
+   "included",
+   "synthesised",
+   "application",
+   "ai",
+   "solely",
+   "formal",
+   "higher",
+   "continuing",
+   "education",
+   "published",
+   "english",
+   "july",
+   "journal",
+   "article",
+   "full",
+   "conference",
+   "paper",
+   "method",
+   "section",
+   "publication",
+   "included",
+   "data",
+   "extraction",
+   "synthesis",
+   "eppi",
+   "reviewer",
+   "predominantly",
+   "systematic",
+   "review",
+   "published",
+   "author",
+   "north",
+   "america",
+   "conducted",
+   "team",
+   "mostly",
+   "domestic",
+   "collaboration",
+   "finding",
+   "show",
+   "review",
+   "mostly",
+   "focused",
+   "aihed",
+   "generally",
+   "profiling",
+   "prediction",
+   "thematic",
+   "foci",
+   "key",
+   "finding",
+   "indicated",
+   "predominance",
+   "adaptive",
+   "system",
+   "personalisation",
+   "higher",
+   "education",
+   "research",
+   "gap",
+   "identified",
+   "suggest",
+   "need",
+   "greater",
+   "ethical",
+   "methodological",
+   "contextual",
+   "consideration",
+   "future",
+   "research",
+   "alongside",
+   "interdisciplinary",
+   "approach",
+   "aihed",
+   "application",
+   "suggestion",
+   "provided",
+   "guide",
+   "future",
+   "primary",
+   "secondary",
+   "research"
+  ],
+  "tok_b": [
+   "according",
+   "various",
+   "international",
+   "report",
+   "artificial",
+   "intelligence",
+   "education",
+   "aied",
+   "currently",
+   "emerging",
+   "field",
+   "educational",
+   "technology",
+   "whilst",
+   "around",
+   "year",
+   "still",
+   "unclear",
+   "educator",
+   "make",
+   "pedagogical",
+   "advantage",
+   "broader",
+   "scale",
+   "actually",
+   "impact",
+   "meaningfully",
+   "teaching",
+   "learning",
+   "higher",
+   "education",
+   "paper",
+   "seek",
+   "provide",
+   "overview",
+   "research",
+   "ai",
+   "application",
+   "higher",
+   "education",
+   "systematic",
+   "review",
+   "initially",
+   "identified",
+   "publication",
+   "period",
+   "article",
+   "included",
+   "final",
+   "synthesis",
+   "according",
+   "explicit",
+   "inclusion",
+   "exclusion",
+   "criteria",
+   "descriptive",
+   "result",
+   "show",
+   "discipline",
+   "involved",
+   "aied",
+   "paper",
+   "come",
+   "computer",
+   "science",
+   "stem",
+   "quantitative",
+   "method",
+   "frequently",
+   "empirical",
+   "study",
+   "synthesis",
+   "result",
+   "present",
+   "area",
+   "aied",
+   "application",
+   "academic",
+   "support",
+   "service",
+   "institutional",
+   "administrative",
+   "service",
+   "profiling",
+   "prediction",
+   "assessment",
+   "evaluation",
+   "adaptive",
+   "system",
+   "personalisation",
+   "intelligent",
+   "tutoring",
+   "system",
+   "conclusion",
+   "reflect",
+   "almost",
+   "lack",
+   "critical",
+   "reflection",
+   "challenge",
+   "risk",
+   "aied",
+   "weak",
+   "connection",
+   "theoretical",
+   "pedagogical",
+   "perspective",
+   "need",
+   "exploration",
+   "ethical",
+   "educational",
+   "approach",
+   "application",
+   "aied",
+   "higher",
+   "education"
+  ],
+  "frag_a": [
+   "field",
+   "artificial",
+   "intelligence",
+   "education",
+   "aied",
+   "substantial",
+   "history",
+   "research"
+  ],
+  "frag_b": [
+   "according",
+   "various",
+   "international",
+   "report",
+   "artificial",
+   "intelligence",
+   "education",
+   "aied"
+  ],
+  "lev_mat": [
+   [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+   ],
+   [
+    1,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+   ],
+   [
+    2,
+    2,
+    2,
+    3,
+    4,
+    4,
+    5,
+    6,
+    7
+   ],
+   [
+    3,
+    3,
+    3,
+    3,
+    4,
+    5,
+    4,
+    5,
+    6
+   ],
+   [
+    4,
+    4,
+    4,
+    4,
+    4,
+    5,
+    5,
+    4,
+    5
+   ],
+   [
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    6,
+    5,
+    4
+   ],
+   [
+    6,
+    6,
+    6,
+    6,
+    6,
+    6,
+    6,
+    6,
+    5
+   ],
+   [
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    6
+   ],
+   [
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    7
+   ]
+  ],
+  "lev_frag": 7,
+  "lev_full": 140,
+  "lev_sim": 0.09677419354838712,
+  "nw_mat": [
+   [
+    0,
+    -1,
+    -2,
+    -3,
+    -4,
+    -5,
+    -6,
+    -7,
+    -8
+   ],
+   [
+    -1,
+    -1,
+    -2,
+    -3,
+    -4,
+    -5,
+    -6,
+    -7,
+    -8
+   ],
+   [
+    -2,
+    -2,
+    -2,
+    -3,
+    -4,
+    -3,
+    -4,
+    -5,
+    -6
+   ],
+   [
+    -3,
+    -3,
+    -3,
+    -3,
+    -4,
+    -4,
+    -2,
+    -3,
+    -4
+   ],
+   [
+    -4,
+    -4,
+    -4,
+    -4,
+    -4,
+    -5,
+    -3,
+    -1,
+    -2
+   ],
+   [
+    -5,
+    -5,
+    -5,
+    -5,
+    -5,
+    -5,
+    -4,
+    -2,
+    0
+   ],
+   [
+    -6,
+    -6,
+    -6,
+    -6,
+    -6,
+    -6,
+    -5,
+    -3,
+    -1
+   ],
+   [
+    -7,
+    -7,
+    -7,
+    -7,
+    -7,
+    -7,
+    -6,
+    -4,
+    -2
+   ],
+   [
+    -8,
+    -8,
+    -8,
+    -8,
+    -8,
+    -8,
+    -7,
+    -5,
+    -3
+   ]
+  ],
+  "nw_frag_score": -3,
+  "nw_align_a": [
+   "-",
+   "-",
+   "-",
+   "field",
+   "artificial",
+   "intelligence",
+   "education",
+   "aied",
+   "substantial",
+   "history",
+   "research"
+  ],
+  "nw_align_b": [
+   "according",
+   "various",
+   "international",
+   "report",
+   "artificial",
+   "intelligence",
+   "education",
+   "aied",
+   "-",
+   "-",
+   "-"
+  ],
+  "nw_full": -122,
+  "nw_limites": [
+   77,
+   -155
+  ],
+  "nw_sim": 0.14224137931034483,
+  "jac": {
+   "A": 120,
+   "B": 97,
+   "inter": [
+    "adaptive",
+    "ai",
+    "aied",
+    "application",
+    "approach",
+    "article",
+    "artificial",
+    "education",
+    "ethical",
+    "field",
+    "higher",
+    "identified",
+    "included",
+    "intelligence",
+    "method",
+    "need",
+    "paper",
+    "personalisation",
+    "prediction",
+    "profiling",
+    "publication",
+    "research",
+    "review",
+    "science",
+    "show",
+    "synthesis",
+    "system",
+    "systematic"
+   ],
+   "n_inter": 28,
+   "union": 189,
+   "valor": 0.14814814814814814
+  },
+  "tfidf_filas": [
+   {
+    "t": "adaptive",
+    "fa": 1,
+    "fb": 1,
+    "tfa": 0.0064516129032258064,
+    "tfb": 0.008620689655172414,
+    "idf": 3.302585092994046,
+    "wa": 0.021307000599961587,
+    "wb": 0.028470561146500397,
+    "prod": 0.0006066222634297271
+   },
+   {
+    "t": "ai",
+    "fa": 2,
+    "fb": 1,
+    "tfa": 0.012903225806451613,
+    "tfb": 0.008620689655172414,
+    "idf": 1.1053605156578263,
+    "wa": 0.014262716331068726,
+    "wb": 0.009528969962567468,
+    "prod": 0.00013590899550337438
+   },
+   {
+    "t": "aied",
+    "fa": 3,
+    "fb": 5,
+    "tfa": 0.01935483870967742,
+    "tfb": 0.04310344827586207,
+    "idf": 2.049822124498678,
+    "wa": 0.03967397660320022,
+    "wb": 0.08835440191804647,
+    "prod": 0.003505370474486324
+   },
+   {
+    "t": "application",
+    "fa": 3,
+    "fb": 3,
+    "tfa": 0.01935483870967742,
+    "tfb": 0.02586206896551724,
+    "idf": 1.6931471805599454,
+    "wa": 0.032770590591482816,
+    "wb": 0.04378828915241238,
+    "prod": 0.0014349680965151743
+   },
+   {
+    "t": "approach",
+    "fa": 1,
+    "fb": 1,
+    "tfa": 0.0064516129032258064,
+    "tfb": 0.008620689655172414,
+    "idf": 1.916290731874155,
+    "wa": 0.012363166012091323,
+    "wb": 0.016519747688570303,
+    "prod": 0.00020423638315165656
+   },
+   {
+    "t": "article",
+    "fa": 1,
+    "fb": 1,
+    "tfa": 0.0064516129032258064,
+    "tfb": 0.008620689655172414,
+    "idf": 1.6931471805599454,
+    "wa": 0.010923530197160938,
+    "wb": 0.01459609638413746,
+    "prod": 0.00015944089961279713
+   },
+   {
+    "t": "artificial",
+    "fa": 1,
+    "fb": 1,
+    "tfa": 0.0064516129032258064,
+    "tfb": 0.008620689655172414,
+    "idf": 1.0,
+    "wa": 0.0064516129032258064,
+    "wb": 0.008620689655172414,
+    "prod": 5.5617352614015575e-05
+   },
+   {
+    "t": "education",
+    "fa": 6,
+    "fb": 4,
+    "tfa": 0.03870967741935484,
+    "tfb": 0.034482758620689655,
+    "idf": 1.1053605156578263,
+    "wa": 0.04278814899320618,
+    "wb": 0.038115879850269874,
+    "prod": 0.0016309079460404927
+   },
+   {
+    "t": "ethical",
+    "fa": 1,
+    "fb": 1,
+    "tfa": 0.0064516129032258064,
+    "tfb": 0.008620689655172414,
+    "idf": 2.8971199848858813,
+    "wa": 0.018691096676683106,
+    "wb": 0.024975172283498975,
+    "prod": 0.0004668133596676957
+   },
+   {
+    "t": "field",
+    "fa": 2,
+    "fb": 1,
+    "tfa": 0.012903225806451613,
+    "tfb": 0.008620689655172414,
+    "idf": 1.916290731874155,
+    "wa": 0.024726332024182646,
+    "wb": 0.016519747688570303,
+    "prod": 0.0004084727663033131
+   },
+   {
+    "t": "higher",
+    "fa": 4,
+    "fb": 3,
+    "tfa": 0.025806451612903226,
+    "tfb": 0.02586206896551724,
+    "idf": 2.203972804325936,
+    "wa": 0.0568767175309919,
+    "wb": 0.05699929666360179,
+    "prod": 0.0032419328958008878
+   },
+   {
+    "t": "identified",
+    "fa": 1,
+    "fb": 1,
+    "tfa": 0.0064516129032258064,
+    "tfb": 0.008620689655172414,
+    "idf": 2.203972804325936,
+    "wa": 0.014219179382747974,
+    "wb": 0.01899976555453393,
+    "prod": 0.000270161074650074
+   },
+   {
+    "t": "included",
+    "fa": 2,
+    "fb": 1,
+    "tfa": 0.012903225806451613,
+    "tfb": 0.008620689655172414,
+    "idf": 2.6094379124341005,
+    "wa": 0.03367016661205291,
+    "wb": 0.02249515441753535,
+    "prod": 0.0007574155972022733
+   },
+   {
+    "t": "intelligence",
+    "fa": 1,
+    "fb": 1,
+    "tfa": 0.0064516129032258064,
+    "tfb": 0.008620689655172414,
+    "idf": 1.0,
+    "wa": 0.0064516129032258064,
+    "wb": 0.008620689655172414,
+    "prod": 5.5617352614015575e-05
+   },
+   {
+    "t": "method",
+    "fa": 1,
+    "fb": 1,
+    "tfa": 0.0064516129032258064,
+    "tfb": 0.008620689655172414,
+    "idf": 2.386294361119891,
+    "wa": 0.01539544749109607,
+    "wb": 0.020571503113102508,
+    "prod": 0.000316707495990689
+   },
+   {
+    "t": "need",
+    "fa": 1,
+    "fb": 1,
+    "tfa": 0.0064516129032258064,
+    "tfb": 0.008620689655172414,
+    "idf": 2.049822124498678,
+    "wa": 0.013224658867733406,
+    "wb": 0.01767088038360929,
+    "prod": 0.0002336913649657549
+   },
+   {
+    "t": "paper",
+    "fa": 1,
+    "fb": 2,
+    "tfa": 0.0064516129032258064,
+    "tfb": 0.017241379310344827,
+    "idf": 1.916290731874155,
+    "wa": 0.012363166012091323,
+    "wb": 0.033039495377140606,
+    "prod": 0.0004084727663033131
+   },
+   {
+    "t": "personalisation",
+    "fa": 1,
+    "fb": 1,
+    "tfa": 0.0064516129032258064,
+    "tfb": 0.008620689655172414,
+    "idf": 3.302585092994046,
+    "wa": 0.021307000599961587,
+    "wb": 0.028470561146500397,
+    "prod": 0.0006066222634297271
+   },
+   {
+    "t": "prediction",
+    "fa": 1,
+    "fb": 1,
+    "tfa": 0.0064516129032258064,
+    "tfb": 0.008620689655172414,
+    "idf": 3.302585092994046,
+    "wa": 0.021307000599961587,
+    "wb": 0.028470561146500397,
+    "prod": 0.0006066222634297271
+   },
+   {
+    "t": "profiling",
+    "fa": 1,
+    "fb": 1,
+    "tfa": 0.0064516129032258064,
+    "tfb": 0.008620689655172414,
+    "idf": 3.302585092994046,
+    "wa": 0.021307000599961587,
+    "wb": 0.028470561146500397,
+    "prod": 0.0006066222634297271
+   },
+   {
+    "t": "publication",
+    "fa": 1,
+    "fb": 1,
+    "tfa": 0.0064516129032258064,
+    "tfb": 0.008620689655172414,
+    "idf": 2.386294361119891,
+    "wa": 0.01539544749109607,
+    "wb": 0.020571503113102508,
+    "prod": 0.000316707495990689
+   },
+   {
+    "t": "research",
+    "fa": 7,
+    "fb": 1,
+    "tfa": 0.04516129032258064,
+    "tfb": 0.008620689655172414,
+    "idf": 1.2231435513142097,
+    "wa": 0.055238741027093335,
+    "wb": 0.010544340959605256,
+    "prod": 0.0005824561195690075
+   },
+   {
+    "t": "review",
+    "fa": 7,
+    "fb": 1,
+    "tfa": 0.04516129032258064,
+    "tfb": 0.008620689655172414,
+    "idf": 1.1053605156578263,
+    "wa": 0.04991950715874054,
+    "wb": 0.009528969962567468,
+    "prod": 0.00047568148426181033
+   },
+   {
+    "t": "science",
+    "fa": 1,
+    "fb": 1,
+    "tfa": 0.0064516129032258064,
+    "tfb": 0.008620689655172414,
+    "idf": 2.8971199848858813,
+    "wa": 0.018691096676683106,
+    "wb": 0.024975172283498975,
+    "prod": 0.0004668133596676957
+   },
+   {
+    "t": "show",
+    "fa": 1,
+    "fb": 1,
+    "tfa": 0.0064516129032258064,
+    "tfb": 0.008620689655172414,
+    "idf": 2.6094379124341005,
+    "wa": 0.016835083306026455,
+    "wb": 0.02249515441753535,
+    "prod": 0.00037870779860113665
+   },
+   {
+    "t": "synthesis",
+    "fa": 1,
+    "fb": 2,
+    "tfa": 0.0064516129032258064,
+    "tfb": 0.017241379310344827,
+    "idf": 3.302585092994046,
+    "wa": 0.021307000599961587,
+    "wb": 0.056941122293000794,
+    "prod": 0.0012132445268594541
+   },
+   {
+    "t": "system",
+    "fa": 1,
+    "fb": 2,
+    "tfa": 0.0064516129032258064,
+    "tfb": 0.017241379310344827,
+    "idf": 2.049822124498678,
+    "wa": 0.013224658867733406,
+    "wb": 0.03534176076721858,
+    "prod": 0.0004673827299315098
+   },
+   {
+    "t": "systematic",
+    "fa": 2,
+    "fb": 1,
+    "tfa": 0.012903225806451613,
+    "tfb": 0.008620689655172414,
+    "idf": 1.6931471805599454,
+    "wa": 0.021847060394321875,
+    "wb": 0.01459609638413746,
+    "prod": 0.00031888179922559426
+   }
+  ],
+  "tfidf_dot": 0.019932099189247657,
+  "tfidf_na": 0.2788797650712148,
+  "tfidf_nb": 0.3049050017542827,
+  "tfidf_cos": 0.23440749136728148,
+  "tfidf_ang": 76.44330099818585,
+  "w2v": {
+   "u5": [
+    0.07781885182488413,
+    0.10878352223312548,
+    0.027069135118373756,
+    -0.03883849843520998,
+    0.15542432950237423
+   ],
+   "v5": [
+    -0.000509799199372496,
+    0.010946990342961982,
+    -0.008384680073919348,
+    -0.05351494171111293,
+    0.05622061987066401
+   ],
+   "raw_u5": [
+    0.3607043094918123,
+    0.43459930380154704,
+    0.048384354780513714,
+    -0.1830796580910699,
+    0.06737950334321566
+   ],
+   "raw_v5": [
+    0.2823756584675557,
+    0.33676277191138354,
+    0.012930539588220609,
+    -0.19775610136697286,
+    -0.031824206288494555
+   ],
+   "cos": 0.573773702292004,
+   "cos_raw": 0.9302434655424151,
+   "eucl_raw": 0.5927418226288059,
+   "dot": 0.15896714543842844,
+   "nu": 0.7227151183603919,
+   "nv": 0.3833536446461678,
+   "sim": 0.573773702292004
+  },
+  "ppmi": {
+   "u5": [
+    0.030594344616383773,
+    -0.20512550146317382,
+    0.013826544790268985,
+    0.022376273224167118,
+    -0.019671192518845554
+   ],
+   "v5": [
+    0.0035825750436495607,
+    -0.0665373489023132,
+    0.014337893449265997,
+    -0.003854666264010676,
+    0.00180729403373453
+   ],
+   "raw_u5": [
+    -0.4171252319468852,
+    -0.2401985105851132,
+    -0.05244823074246707,
+    0.03452350915436057,
+    -0.05658381996871034
+   ],
+   "raw_v5": [
+    -0.44413700151961943,
+    -0.10161035802425258,
+    -0.05193688208347006,
+    0.008292569666182774,
+    -0.03510533341613026
+   ],
+   "cos": 0.5324219682286261,
+   "cos_raw": 0.8656892546932283,
+   "eucl_raw": 0.2852064132827608,
+   "dot": 0.03217821545567759,
+   "nu": 0.3369326149607128,
+   "nv": 0.1793754221310942,
+   "eucl_norm": 0.9670346754562414,
+   "sim": 0.5164826622718792
+  },
+  "dim": 50,
+  "vecinos": {
+   "assessment": {
+    "w2v": [
+     [
+      "gardner",
+      0.7259552270194662
+     ],
+     [
+      "redesigning",
+      0.7140507815795578
+     ],
+     [
+      "summative",
+      0.7034879227236881
+     ],
+     [
+      "rethink",
+      0.6946197796824607
+     ],
+     [
+      "standardized",
+      0.6685193721177207
+     ]
+    ],
+    "ppmi": [
+     [
+      "load",
+      0.7133059162487803
+     ],
+     [
+      "portfolio",
+      0.6392501180209081
+     ],
+     [
+      "avoid",
+      0.6333571935320725
+     ],
+     [
+      "cope",
+      0.6310128850871585
+     ],
+     [
+      "summative",
+      0.5997892065071071
+     ]
+    ]
+   },
+   "review": {
+    "w2v": [
+     [
+      "systematic",
+      0.8435997619911642
+     ],
+     [
+      "sutton",
+      0.7565030972014175
+     ],
+     [
+      "tricco",
+      0.7419762593774599
+     ],
+     [
+      "undertaken",
+      0.7392855646758394
+     ],
+     [
+      "bower",
+      0.7243855012276411
+     ]
+    ],
+    "ppmi": [
+     [
+      "systematic",
+      0.8871001690674882
+     ],
+     [
+      "sutton",
+      0.7570974501699663
+     ],
+     [
+      "reporting",
+      0.7493053874461342
+     ],
+     [
+      "explicit",
+      0.727615627455008
+     ],
+     [
+      "meta",
+      0.7213953512745231
+     ]
+    ]
+   },
+   "generative": {
+    "w2v": [
+     [
+      "aaa",
+      0.7605783179752548
+     ],
+     [
+      "avoid",
+      0.6942917196548757
+     ],
+     [
+      "redesign",
+      0.658841628460516
+     ],
+     [
+      "output",
+      0.629972616634122
+     ],
+     [
+      "integrity",
+      0.6256532567414805
+     ]
+    ],
+    "ppmi": [
+     [
+      "aaa",
+      0.8745186287361938
+     ],
+     [
+      "redesign",
+      0.8059801913393199
+     ],
+     [
+      "avoid",
+      0.7844638028541872
+     ],
+     [
+      "adopt",
+      0.7784020774920158
+     ],
+     [
+      "cluster",
+      0.7583841181357838
+     ]
+    ]
+   },
+   "teacher": {
+    "w2v": [
+     [
+      "prepared",
+      0.6160925260030634
+     ],
+     [
+      "workforce",
+      0.6085834623651052
+     ],
+     [
+      "drive",
+      0.6080405280412154
+     ],
+     [
+      "motivated",
+      0.6034731763432325
+     ],
+     [
+      "equip",
+      0.602747938142714
+     ]
+    ],
+    "ppmi": [
+     [
+      "educator",
+      0.6044330922202569
+     ],
+     [
+      "holstein",
+      0.5854003110152565
+     ],
+     [
+      "actively",
+      0.5815849913369898
+     ],
+     [
+      "student",
+      0.5681489566388948
+     ],
+     [
+      "lawrence",
+      0.5554285193628097
+     ]
+    ]
+   }
+  },
+  "pares": [
+   {
+    "par": [
+     12,
+     20
+    ],
+    "Levenshtein": 0.09677419354838712,
+    "Needleman-Wunsch": 0.14224137931034483,
+    "Jaccard": 0.14814814814814814,
+    "TF-IDF + Coseno": 0.23440749136728148,
+    "Word2Vec (SGNS) + Coseno": 0.573773702292004,
+    "PPMI-SVD + Euclidiana": 0.5164826622718792
+   },
+   {
+    "par": [
+     15,
+     16
+    ],
+    "Levenshtein": 0.04166666666666663,
+    "Needleman-Wunsch": 0.05913978494623656,
+    "Jaccard": 0.058823529411764705,
+    "TF-IDF + Coseno": 0.0529291090108027,
+    "Word2Vec (SGNS) + Coseno": 0.09166041261229911,
+    "PPMI-SVD + Euclidiana": 0.3319283940364971
+   },
+   {
+    "par": [
+     3,
+     9
+    ],
+    "Levenshtein": 0.050000000000000044,
+    "Needleman-Wunsch": 0.06422018348623854,
+    "Jaccard": 0.06936416184971098,
+    "TF-IDF + Coseno": 0.08352825465845241,
+    "Word2Vec (SGNS) + Coseno": 0.0,
+    "PPMI-SVD + Euclidiana": 0.23507548155551117
+   },
+   {
+    "par": [
+     11,
+     16
+    ],
+    "Levenshtein": 0.0714285714285714,
+    "Needleman-Wunsch": 0.0967741935483871,
+    "Jaccard": 0.10852713178294573,
+    "TF-IDF + Coseno": 0.2262390165743018,
+    "Word2Vec (SGNS) + Coseno": 0.3224096513714108,
+    "PPMI-SVD + Euclidiana": 0.3698350073285155
+   }
+  ],
+  "top5": {
+   "Levenshtein": [
+    [
+     2,
+     5,
+     0.1208791208791209
+    ],
+    [
+     2,
+     20,
+     0.11206896551724133
+    ],
+    [
+     2,
+     9,
+     0.1009174311926605
+    ],
+    [
+     5,
+     8,
+     0.09756097560975607
+    ],
+    [
+     12,
+     20,
+     0.09677419354838712
+    ]
+   ],
+   "Needleman-Wunsch": [
+    [
+     2,
+     20,
+     0.1875
+    ],
+    [
+     2,
+     17,
+     0.18055555555555555
+    ],
+    [
+     2,
+     18,
+     0.18055555555555555
+    ],
+    [
+     2,
+     7,
+     0.16666666666666666
+    ],
+    [
+     2,
+     12,
+     0.16666666666666666
+    ]
+   ],
+   "Jaccard": [
+    [
+     5,
+     17,
+     0.18333333333333332
+    ],
+    [
+     2,
+     10,
+     0.1826086956521739
+    ],
+    [
+     2,
+     11,
+     0.18181818181818182
+    ],
+    [
+     2,
+     13,
+     0.18045112781954886
+    ],
+    [
+     2,
+     18,
+     0.18045112781954886
+    ]
+   ],
+   "TF-IDF + Coseno": [
+    [
+     2,
+     6,
+     0.28466908005158303
+    ],
+    [
+     6,
+     9,
+     0.26893946432896715
+    ],
+    [
+     2,
+     5,
+     0.26523744683101913
+    ],
+    [
+     8,
+     10,
+     0.26429386861789816
+    ],
+    [
+     2,
+     9,
+     0.25064528012980497
+    ]
+   ],
+   "Word2Vec (SGNS) + Coseno": [
+    [
+     6,
+     9,
+     0.614040297405268
+    ],
+    [
+     12,
+     20,
+     0.573773702292004
+    ],
+    [
+     5,
+     6,
+     0.5142670038740632
+    ],
+    [
+     8,
+     10,
+     0.4268711480428636
+    ],
+    [
+     9,
+     12,
+     0.40418191740762677
+    ]
+   ],
+   "PPMI-SVD + Euclidiana": [
+    [
+     12,
+     20,
+     0.5164826622718792
+    ],
+    [
+     2,
+     6,
+     0.5146639628344641
+    ],
+    [
+     5,
+     6,
+     0.4974520676260157
+    ],
+    [
+     6,
+     9,
+     0.46721741044347576
+    ],
+    [
+     8,
+     10,
+     0.4369705159341172
+    ]
+   ]
+  },
+  "corr": [
+   [
+    1.0,
+    0.931130794140679,
+    0.4160010950449343,
+    0.5880102219822622,
+    0.29555844519864893,
+    0.35236042406126145
+   ],
+   [
+    0.931130794140679,
+    1.0,
+    0.4269183618844454,
+    0.5644318631568499,
+    0.2333665741508638,
+    0.29362217768539733
+   ],
+   [
+    0.4160010950449344,
+    0.42691836188444543,
+    1.0,
+    0.6081249094555087,
+    0.34149066806024464,
+    0.4323142438710959
+   ],
+   [
+    0.5880102219822622,
+    0.5644318631568499,
+    0.6081249094555087,
+    1.0,
+    0.668515971541671,
+    0.6762817155519665
+   ],
+   [
+    0.295558445198649,
+    0.2333665741508638,
+    0.34149066806024464,
+    0.6685159715416709,
+    1.0,
+    0.8330340829179704
+   ],
+   [
+    0.35236042406126145,
+    0.29362217768539733,
+    0.4323142438710959,
+    0.6762817155519665,
+    0.8330340829179704,
+    1.0
+   ]
+  ],
+  "medias": {
+   "Levenshtein": 0.04746751264696909,
+   "Needleman-Wunsch": 0.06985666645658188,
+   "Jaccard": 0.10290394634049517,
+   "TF-IDF + Coseno": 0.09646112734593988,
+   "Word2Vec (SGNS) + Coseno": 0.056996963588642285,
+   "PPMI-SVD + Euclidiana": 0.280131272684621
+  },
+  "tiempos_ms": {
+   "Levenshtein": 3.5772879999929805,
+   "Needleman-Wunsch": 4.0742709999979825,
+   "Jaccard": 0.02022366667612611,
+   "TF-IDF + Coseno": 0.06759866666546561,
+   "Word2Vec (SGNS) + Coseno": 0.024372000003343903,
+   "PPMI-SVD + Euclidiana": 0.012355000004996933
+  }
+ },
+ "r2": {
+  "metodos": {
+   "single": {
+    "nombre": "Single Linkage",
+    "fusiones": [
+     [
+      1,
+      5,
+      0.715330919948417,
+      2
+     ],
+     [
+      8,
+      20,
+      0.7310605356710329,
+      3
+     ],
+     [
+      4,
+      21,
+      0.7347625531689809,
+      4
+     ],
+     [
+      7,
+      9,
+      0.7357061313821018,
+      2
+     ],
+     [
+      19,
+      22,
+      0.7601409270655064,
+      5
+     ],
+     [
+      11,
+      24,
+      0.7655925086327185,
+      6
+     ],
+     [
+      10,
+      15,
+      0.7737609834256982,
+      2
+     ],
+     [
+      16,
+      26,
+      0.7810801081359876,
+      3
+     ],
+     [
+      25,
+      27,
+      0.8140030592725558,
+      9
+     ],
+     [
+      23,
+      28,
+      0.819087150066923,
+      11
+     ],
+     [
+      2,
+      29,
+      0.8261506752196057,
+      12
+     ],
+     [
+      13,
+      30,
+      0.8476493275339566,
+      13
+     ],
+     [
+      12,
+      31,
+      0.8620555043981112,
+      14
+     ],
+     [
+      6,
+      32,
+      0.8639941804354432,
+      15
+     ],
+     [
+      0,
+      33,
+      0.8647334401814558,
+      16
+     ],
+     [
+      17,
+      34,
+      0.8695567519254418,
+      17
+     ],
+     [
+      18,
+      35,
+      0.8724038977517492,
+      18
+     ],
+     [
+      14,
+      36,
+      0.8774810416786581,
+      19
+     ],
+     [
+      3,
+      37,
+      0.9162651469841362,
+      20
+     ]
+    ],
+    "cpcc": 0.732650134945117,
+    "sil": {
+     "2": 0.053654883640643025,
+     "3": 0.014858163726591184,
+     "4": 0.014537556472481289,
+     "5": 0.010216829699986739,
+     "6": 0.003597190546990787,
+     "7": 0.004450439638985354,
+     "8": 0.004789807346399899
+    },
+    "k_mejor": 2,
+    "sil_mejor": 0.053654883640643025,
+    "sil_media": 0.01515783872458261,
+    "tiempo_ms": 0.5438659999867923
+   },
+   "complete": {
+    "nombre": "Complete Linkage",
+    "fusiones": [
+     [
+      1,
+      5,
+      0.715330919948417,
+      2
+     ],
+     [
+      7,
+      9,
+      0.7357061313821018,
+      2
+     ],
+     [
+      8,
+      20,
+      0.7493547198701951,
+      3
+     ],
+     [
+      11,
+      19,
+      0.7655925086327185,
+      2
+     ],
+     [
+      10,
+      15,
+      0.7737609834256982,
+      2
+     ],
+     [
+      4,
+      22,
+      0.799695281303348,
+      4
+     ],
+     [
+      16,
+      24,
+      0.852292967872422,
+      3
+     ],
+     [
+      2,
+      21,
+      0.8688385663878311,
+      3
+     ],
+     [
+      0,
+      13,
+      0.877757032953311,
+      2
+     ],
+     [
+      23,
+      25,
+      0.8809242298682145,
+      6
+     ],
+     [
+      14,
+      27,
+      0.8905043350371443,
+      4
+     ],
+     [
+      12,
+      17,
+      0.9012599349250638,
+      2
+     ],
+     [
+      6,
+      29,
+      0.9185382485010277,
+      7
+     ],
+     [
+      26,
+      31,
+      0.930886770903526,
+      5
+     ],
+     [
+      28,
+      30,
+      0.9344099136843204,
+      6
+     ],
+     [
+      18,
+      33,
+      0.9417307733080826,
+      6
+     ],
+     [
+      3,
+      34,
+      0.9606644616508834,
+      7
+     ],
+     [
+      32,
+      35,
+      0.9734407931657341,
+      13
+     ],
+     [
+      36,
+      37,
+      0.9855512973974364,
+      20
+     ]
+    ],
+    "cpcc": 0.7368722342880775,
+    "sil": {
+     "2": 0.03630650641954221,
+     "3": 0.05017775748512876,
+     "4": 0.05133177388479847,
+     "5": 0.05023916348781317,
+     "6": 0.050429690898672865,
+     "7": 0.055854727485975766,
+     "8": 0.05692601211847479
+    },
+    "k_mejor": 8,
+    "sil_mejor": 0.05692601211847479,
+    "sil_media": 0.05018080454005801,
+    "tiempo_ms": 0.5852369999956863
+   },
+   "average": {
+    "nombre": "Average Linkage",
+    "fusiones": [
+     [
+      1,
+      5,
+      0.715330919948417,
+      2
+     ],
+     [
+      7,
+      9,
+      0.7357061313821018,
+      2
+     ],
+     [
+      8,
+      20,
+      0.740207627770614,
+      3
+     ],
+     [
+      11,
+      19,
+      0.7655925086327185,
+      2
+     ],
+     [
+      4,
+      22,
+      0.766767930705964,
+      4
+     ],
+     [
+      10,
+      15,
+      0.7737609834256982,
+      2
+     ],
+     [
+      16,
+      25,
+      0.8166865380042048,
+      3
+     ],
+     [
+      23,
+      24,
+      0.8211581673728339,
+      6
+     ],
+     [
+      2,
+      21,
+      0.8474946208037184,
+      3
+     ],
+     [
+      0,
+      13,
+      0.877757032953311,
+      2
+     ],
+     [
+      14,
+      28,
+      0.8833040049824269,
+      4
+     ],
+     [
+      12,
+      26,
+      0.8860700619889599,
+      4
+     ],
+     [
+      6,
+      27,
+      0.892155836006217,
+      7
+     ],
+     [
+      30,
+      31,
+      0.9032294675240912,
+      8
+     ],
+     [
+      29,
+      33,
+      0.9050719276119598,
+      10
+     ],
+     [
+      17,
+      32,
+      0.9060408048560686,
+      8
+     ],
+     [
+      34,
+      35,
+      0.9135993360054997,
+      18
+     ],
+     [
+      18,
+      36,
+      0.9452398225942071,
+      19
+     ],
+     [
+      3,
+      37,
+      0.9519717191271095,
+      20
+     ]
+    ],
+    "cpcc": 0.8222522182435802,
+    "sil": {
+     "2": 0.053654883640643025,
+     "3": 0.04198674222465705,
+     "4": 0.04424875531203866,
+     "5": 0.04246866828275077,
+     "6": 0.04093037671199518,
+     "7": 0.051841995060491405,
+     "8": 0.0537897503377139
+    },
+    "k_mejor": 8,
+    "sil_mejor": 0.0537897503377139,
+    "sil_media": 0.04698873879575571,
+    "tiempo_ms": 0.5276320000007217
+   }
+  },
+  "mejor": "average",
+  "cortes": {
+   "single": {
+    "k": 2,
+    "etiquetas": [
+     1,
+     1,
+     1,
+     0,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1
+    ],
+    "temas": {
+     "0": {
+      "miembros": [
+       4
+      ],
+      "terminos": [
+       "problem",
+       "complex",
+       "solving",
+       "cognitive",
+       "affective",
+       "social"
+      ]
+     },
+     "1": {
+      "miembros": [
+       1,
+       2,
+       3,
+       5,
+       6,
+       7,
+       8,
+       9,
+       10,
+       11,
+       12,
+       13,
+       14,
+       15,
+       16,
+       17,
+       18,
+       19,
+       20
+      ],
+      "terminos": [
+       "ai",
+       "aied",
+       "assessment",
+       "learning",
+       "education",
+       "review"
+      ]
+     }
+    }
+   },
+   "complete": {
+    "k": 8,
+    "etiquetas": [
+     4,
+     5,
+     6,
+     0,
+     5,
+     5,
+     1,
+     6,
+     5,
+     6,
+     3,
+     5,
+     7,
+     4,
+     6,
+     3,
+     3,
+     7,
+     2,
+     5
+    ],
+    "temas": {
+     "0": {
+      "miembros": [
+       4
+      ],
+      "terminos": [
+       "problem",
+       "complex",
+       "solving",
+       "cognitive",
+       "affective",
+       "social"
+      ]
+     },
+     "1": {
+      "miembros": [
+       7
+      ],
+      "terminos": [
+       "la",
+       "design",
+       "human",
+       "centred",
+       "control",
+       "aied"
+      ]
+     },
+     "2": {
+      "miembros": [
+       19
+      ],
+      "terminos": [
+       "chatgpt",
+       "coding",
+       "generating",
+       "subject",
+       "instructor",
+       "domain"
+      ]
+     },
+     "3": {
+      "miembros": [
+       11,
+       16,
+       17
+      ],
+      "terminos": [
+       "assessment",
+       "generative",
+       "driven",
+       "stem",
+       "ai",
+       "educational"
+      ]
+     },
+     "4": {
+      "miembros": [
+       1,
+       14
+      ],
+      "terminos": [
+       "ai",
+       "competence",
+       "cft",
+       "adult",
+       "teacher",
+       "literacy"
+      ]
+     },
+     "5": {
+      "miembros": [
+       2,
+       5,
+       6,
+       9,
+       12,
+       20
+      ],
+      "terminos": [
+       "aied",
+       "technology",
+       "research",
+       "education",
+       "application",
+       "educational"
+      ]
+     },
+     "6": {
+      "miembros": [
+       3,
+       8,
+       10,
+       15
+      ],
+      "terminos": [
+       "learning",
+       "ai",
+       "simulation",
+       "study",
+       "genai",
+       "learner"
+      ]
+     },
+     "7": {
+      "miembros": [
+       13,
+       18
+      ],
+      "terminos": [
+       "gai",
+       "aq",
+       "education",
+       "insight",
+       "research",
+       "analysis"
+      ]
+     }
+    }
+   },
+   "average": {
+    "k": 8,
+    "etiquetas": [
+     5,
+     4,
+     6,
+     0,
+     4,
+     4,
+     1,
+     6,
+     4,
+     6,
+     7,
+     4,
+     7,
+     5,
+     6,
+     7,
+     7,
+     2,
+     3,
+     4
+    ],
+    "temas": {
+     "0": {
+      "miembros": [
+       4
+      ],
+      "terminos": [
+       "problem",
+       "complex",
+       "solving",
+       "cognitive",
+       "affective",
+       "social"
+      ]
+     },
+     "1": {
+      "miembros": [
+       7
+      ],
+      "terminos": [
+       "la",
+       "design",
+       "human",
+       "centred",
+       "control",
+       "aied"
+      ]
+     },
+     "2": {
+      "miembros": [
+       18
+      ],
+      "terminos": [
+       "gai",
+       "analysis",
+       "transformative",
+       "education",
+       "emerge",
+       "research"
+      ]
+     },
+     "3": {
+      "miembros": [
+       19
+      ],
+      "terminos": [
+       "chatgpt",
+       "coding",
+       "generating",
+       "subject",
+       "instructor",
+       "domain"
+      ]
+     },
+     "4": {
+      "miembros": [
+       2,
+       5,
+       6,
+       9,
+       12,
+       20
+      ],
+      "terminos": [
+       "aied",
+       "technology",
+       "research",
+       "education",
+       "application",
+       "educational"
+      ]
+     },
+     "5": {
+      "miembros": [
+       1,
+       14
+      ],
+      "terminos": [
+       "ai",
+       "competence",
+       "cft",
+       "adult",
+       "teacher",
+       "literacy"
+      ]
+     },
+     "6": {
+      "miembros": [
+       3,
+       8,
+       10,
+       15
+      ],
+      "terminos": [
+       "learning",
+       "ai",
+       "simulation",
+       "study",
+       "genai",
+       "learner"
+      ]
+     },
+     "7": {
+      "miembros": [
+       11,
+       13,
+       16,
+       17
+      ],
+      "terminos": [
+       "assessment",
+       "generative",
+       "aq",
+       "ai",
+       "driven",
+       "stem"
+      ]
+     }
+    }
+   }
+  },
+  "D_ejemplo": [
+   [
+    0.0,
+    0.882,
+    0.869,
+    0.939,
+    0.911,
+    0.93
+   ],
+   [
+    0.882,
+    0.0,
+    0.886,
+    0.922,
+    0.735,
+    0.715
+   ],
+   [
+    0.869,
+    0.886,
+    0.0,
+    0.94,
+    0.917,
+    0.909
+   ],
+   [
+    0.939,
+    0.922,
+    0.94,
+    0.0,
+    0.968,
+    0.96
+   ],
+   [
+    0.911,
+    0.735,
+    0.917,
+    0.968,
+    0.0,
+    0.766
+   ],
+   [
+    0.93,
+    0.715,
+    0.909,
+    0.96,
+    0.766,
+    0.0
+   ]
+  ]
+ },
+ "r3": {
+  "texto": "to review and rethink their assessment policies",
+  "patron": "ssess",
+  "lps": [
+   0,
+   1,
+   0,
+   1,
+   2
+  ],
+  "malo": {
+   "s": 4,
+   "e": 2
+  },
+  "sufijo": [
+   3,
+   3,
+   3,
+   3,
+   1,
+   2
+  ],
+  "traza_kmp": [
+   [
+    0,
+    0,
+    "t",
+    "s",
+    false
+   ],
+   [
+    1,
+    0,
+    "o",
+    "s",
+    false
+   ],
+   [
+    2,
+    0,
+    " ",
+    "s",
+    false
+   ],
+   [
+    3,
+    0,
+    "r",
+    "s",
+    false
+   ],
+   [
+    4,
+    0,
+    "e",
+    "s",
+    false
+   ],
+   [
+    5,
+    0,
+    "v",
+    "s",
+    false
+   ],
+   [
+    6,
+    0,
+    "i",
+    "s",
+    false
+   ],
+   [
+    7,
+    0,
+    "e",
+    "s",
+    false
+   ],
+   [
+    8,
+    0,
+    "w",
+    "s",
+    false
+   ],
+   [
+    9,
+    0,
+    " ",
+    "s",
+    false
+   ],
+   [
+    10,
+    0,
+    "a",
+    "s",
+    false
+   ],
+   [
+    11,
+    0,
+    "n",
+    "s",
+    false
+   ],
+   [
+    12,
+    0,
+    "d",
+    "s",
+    false
+   ],
+   [
+    13,
+    0,
+    " ",
+    "s",
+    false
+   ],
+   [
+    14,
+    0,
+    "r",
+    "s",
+    false
+   ],
+   [
+    15,
+    0,
+    "e",
+    "s",
+    false
+   ],
+   [
+    16,
+    0,
+    "t",
+    "s",
+    false
+   ],
+   [
+    17,
+    0,
+    "h",
+    "s",
+    false
+   ],
+   [
+    18,
+    0,
+    "i",
+    "s",
+    false
+   ],
+   [
+    19,
+    0,
+    "n",
+    "s",
+    false
+   ],
+   [
+    20,
+    0,
+    "k",
+    "s",
+    false
+   ],
+   [
+    21,
+    0,
+    " ",
+    "s",
+    false
+   ],
+   [
+    22,
+    0,
+    "t",
+    "s",
+    false
+   ],
+   [
+    23,
+    0,
+    "h",
+    "s",
+    false
+   ],
+   [
+    24,
+    0,
+    "e",
+    "s",
+    false
+   ],
+   [
+    25,
+    0,
+    "i",
+    "s",
+    false
+   ],
+   [
+    26,
+    0,
+    "r",
+    "s",
+    false
+   ],
+   [
+    27,
+    0,
+    " ",
+    "s",
+    false
+   ],
+   [
+    28,
+    0,
+    "a",
+    "s",
+    false
+   ],
+   [
+    29,
+    0,
+    "s",
+    "s",
+    true
+   ],
+   [
+    30,
+    1,
+    "s",
+    "s",
+    true
+   ],
+   [
+    31,
+    2,
+    "e",
+    "e",
+    true
+   ],
+   [
+    32,
+    3,
+    "s",
+    "s",
+    true
+   ],
+   [
+    33,
+    4,
+    "s",
+    "s",
+    true
+   ],
+   [
+    33,
+    5,
+    "",
+    "",
+    "MATCH en 29"
+   ],
+   [
+    34,
+    2,
+    "m",
+    "e",
+    false
+   ],
+   [
+    34,
+    1,
+    "m",
+    "s",
+    false
+   ],
+   [
+    34,
+    0,
+    "m",
+    "s",
+    false
+   ],
+   [
+    35,
+    0,
+    "e",
+    "s",
+    false
+   ],
+   [
+    36,
+    0,
+    "n",
+    "s",
+    false
+   ],
+   [
+    37,
+    0,
+    "t",
+    "s",
+    false
+   ],
+   [
+    38,
+    0,
+    " ",
+    "s",
+    false
+   ],
+   [
+    39,
+    0,
+    "p",
+    "s",
+    false
+   ],
+   [
+    40,
+    0,
+    "o",
+    "s",
+    false
+   ],
+   [
+    41,
+    0,
+    "l",
+    "s",
+    false
+   ],
+   [
+    42,
+    0,
+    "i",
+    "s",
+    false
+   ],
+   [
+    43,
+    0,
+    "c",
+    "s",
+    false
+   ],
+   [
+    44,
+    0,
+    "i",
+    "s",
+    false
+   ],
+   [
+    45,
+    0,
+    "e",
+    "s",
+    false
+   ],
+   [
+    46,
+    0,
+    "s",
+    "s",
+    true
+   ]
+  ],
+  "traza_bm": [
+   {
+    "s": 0,
+    "comp": 1,
+    "j": 4,
+    "mal": "e",
+    "bm": 2,
+    "bs": 2,
+    "desp": 2,
+    "match": false
+   },
+   {
+    "s": 2,
+    "comp": 1,
+    "j": 4,
+    "mal": "i",
+    "bm": 5,
+    "bs": 2,
+    "desp": 5,
+    "match": false
+   },
+   {
+    "s": 7,
+    "comp": 1,
+    "j": 4,
+    "mal": "n",
+    "bm": 5,
+    "bs": 2,
+    "desp": 5,
+    "match": false
+   },
+   {
+    "s": 12,
+    "comp": 1,
+    "j": 4,
+    "mal": "t",
+    "bm": 5,
+    "bs": 2,
+    "desp": 5,
+    "match": false
+   },
+   {
+    "s": 17,
+    "comp": 1,
+    "j": 4,
+    "mal": " ",
+    "bm": 5,
+    "bs": 2,
+    "desp": 5,
+    "match": false
+   },
+   {
+    "s": 22,
+    "comp": 1,
+    "j": 4,
+    "mal": "r",
+    "bm": 5,
+    "bs": 2,
+    "desp": 5,
+    "match": false
+   },
+   {
+    "s": 27,
+    "comp": 1,
+    "j": 4,
+    "mal": "e",
+    "bm": 2,
+    "bs": 2,
+    "desp": 2,
+    "match": false
+   },
+   {
+    "s": 29,
+    "comp": 5,
+    "j": null,
+    "mal": null,
+    "bm": null,
+    "bs": 3,
+    "desp": 3,
+    "match": true
+   },
+   {
+    "s": 32,
+    "comp": 1,
+    "j": 4,
+    "mal": "n",
+    "bm": 5,
+    "bs": 2,
+    "desp": 5,
+    "match": false
+   },
+   {
+    "s": 37,
+    "comp": 1,
+    "j": 4,
+    "mal": "l",
+    "bm": 5,
+    "bs": 2,
+    "desp": 5,
+    "match": false
+   },
+   {
+    "s": 42,
+    "comp": 2,
+    "j": 3,
+    "mal": "e",
+    "bm": 1,
+    "bs": 1,
+    "desp": 1,
+    "match": false
+   }
+  ],
+  "res_kmp": {
+   "posiciones": [
+    29
+   ],
+   "comparaciones": 49,
+   "lps": [
+    0,
+    1,
+    0,
+    1,
+    2
+   ]
+  },
+  "res_bm": {
+   "posiciones": [
+    29
+   ],
+   "comparaciones": 16,
+   "malo": {
+    "s": 4,
+    "e": 2
+   },
+   "sufijo": [
+    3,
+    3,
+    3,
+    3,
+    1,
+    2
+   ]
+  },
+  "res_rk": {
+   "posiciones": [
+    29
+   ],
+   "comparaciones": 5,
+   "colisiones": 0,
+   "hash_patron": 75
+  },
+  "pot": 68,
+  "rk_ventanas": [
+   {
+    "i": 0,
+    "w": "to re",
+    "h": 43,
+    "igual_hash": false,
+    "igual_texto": false
+   },
+   {
+    "i": 1,
+    "w": "o rev",
+    "h": 82,
+    "igual_hash": false,
+    "igual_texto": false
+   },
+   {
+    "i": 2,
+    "w": " revi",
+    "h": 32,
+    "igual_hash": false,
+    "igual_texto": false
+   },
+   {
+    "i": 3,
+    "w": "revie",
+    "h": 71,
+    "igual_hash": false,
+    "igual_texto": false
+   },
+   {
+    "i": 4,
+    "w": "eview",
+    "h": 51,
+    "igual_hash": false,
+    "igual_texto": false
+   },
+   {
+    "i": 5,
+    "w": "view ",
+    "h": 59,
+    "igual_hash": false,
+    "igual_texto": false
+   },
+   {
+    "i": 6,
+    "w": "iew a",
+    "h": 45,
+    "igual_hash": false,
+    "igual_texto": false
+   },
+   {
+    "i": 7,
+    "w": "ew an",
+    "h": 73,
+    "igual_hash": false,
+    "igual_texto": false
+   },
+   {
+    "i": 8,
+    "w": "w and",
+    "h": 2,
+    "igual_hash": false,
+    "igual_texto": false
+   },
+   {
+    "i": 9,
+    "w": " and ",
+    "h": 98,
+    "igual_hash": false,
+    "igual_texto": false
+   },
+   {
+    "i": 10,
+    "w": "and r",
+    "h": 12,
+    "igual_hash": false,
+    "igual_texto": false
+   },
+   {
+    "i": 11,
+    "w": "nd re",
+    "h": 85,
+    "igual_hash": false,
+    "igual_texto": false
+   },
+   {
+    "i": 12,
+    "w": "d ret",
+    "h": 39,
+    "igual_hash": false,
+    "igual_texto": false
+   },
+   {
+    "i": 13,
+    "w": " reth",
+    "h": 24,
+    "igual_hash": false,
+    "igual_texto": false
+   },
+   {
+    "i": 14,
+    "w": "rethi",
+    "h": 47,
+    "igual_hash": false,
+    "igual_texto": false
+   },
+   {
+    "i": 15,
+    "w": "ethin",
+    "h": 59,
+    "igual_hash": false,
+    "igual_texto": false
+   },
+   {
+    "i": 16,
+    "w": "think",
+    "h": 61,
+    "igual_hash": false,
+    "igual_texto": false
+   },
+   {
+    "i": 17,
+    "w": "hink ",
+    "h": 59,
+    "igual_hash": false,
+    "igual_texto": false
+   },
+   {
+    "i": 18,
+    "w": "ink t",
+    "h": 63,
+    "igual_hash": false,
+    "igual_texto": false
+   },
+   {
+    "i": 19,
+    "w": "nk th",
+    "h": 29,
+    "igual_hash": false,
+    "igual_texto": false
+   },
+   {
+    "i": 20,
+    "w": "k the",
+    "h": 30,
+    "igual_hash": false,
+    "igual_texto": false
+   },
+   {
+    "i": 21,
+    "w": " thei",
+    "h": 95,
+    "igual_hash": false,
+    "igual_texto": false
+   },
+   {
+    "i": 22,
+    "w": "their",
+    "h": 52,
+    "igual_hash": false,
+    "igual_texto": false
+   },
+   {
+    "i": 23,
+    "w": "heir ",
+    "h": 78,
+    "igual_hash": false,
+    "igual_texto": false
+   },
+   {
+    "i": 24,
+    "w": "eir a",
+    "h": 60,
+    "igual_hash": false,
+    "igual_texto": false
+   },
+   {
+    "i": 25,
+    "w": "ir as",
+    "h": 22,
+    "igual_hash": false,
+    "igual_texto": false
+   },
+   {
+    "i": 26,
+    "w": "r ass",
+    "h": 48,
+    "igual_hash": false,
+    "igual_texto": false
+   },
+   {
+    "i": 27,
+    "w": " asse",
+    "h": 3,
+    "igual_hash": false,
+    "igual_texto": false
+   },
+   {
+    "i": 28,
+    "w": "asses",
+    "h": 34,
+    "igual_hash": false,
+    "igual_texto": false
+   },
+   {
+    "i": 29,
+    "w": "ssess",
+    "h": 75,
+    "igual_hash": true,
+    "igual_texto": true
+   },
+   {
+    "i": 30,
+    "w": "sessm",
+    "h": 19,
+    "igual_hash": false,
+    "igual_texto": false
+   },
+   {
+    "i": 31,
+    "w": "essme",
+    "h": 17,
+    "igual_hash": false,
+    "igual_texto": false
+   },
+   {
+    "i": 32,
+    "w": "ssmen",
+    "h": 18,
+    "igual_hash": false,
+    "igual_texto": false
+   },
+   {
+    "i": 33,
+    "w": "sment",
+    "h": 79,
+    "igual_hash": false,
+    "igual_texto": false
+   },
+   {
+    "i": 34,
+    "w": "ment ",
+    "h": 57,
+    "igual_hash": false,
+    "igual_texto": false
+   },
+   {
+    "i": 35,
+    "w": "ent p",
+    "h": 74,
+    "igual_hash": false,
+    "igual_texto": false
+   },
+   {
+    "i": 36,
+    "w": "nt po",
+    "h": 67,
+    "igual_hash": false,
+    "igual_texto": false
+   },
+   {
+    "i": 37,
+    "w": "t pol",
+    "h": 69,
+    "igual_hash": false,
+    "igual_texto": false
+   },
+   {
+    "i": 38,
+    "w": " poli",
+    "h": 59,
+    "igual_hash": false,
+    "igual_texto": false
+   },
+   {
+    "i": 39,
+    "w": "polic",
+    "h": 12,
+    "igual_hash": false,
+    "igual_texto": false
+   },
+   {
+    "i": 40,
+    "w": "olici",
+    "h": 54,
+    "igual_hash": false,
+    "igual_texto": false
+   },
+   {
+    "i": 41,
+    "w": "licie",
+    "h": 31,
+    "igual_hash": false,
+    "igual_texto": false
+   },
+   {
+    "i": 42,
+    "w": "icies",
+    "h": 22,
+    "igual_hash": false,
+    "igual_texto": false
+   }
+  ],
+  "rk_hp": 75,
+  "rk_q": 101,
+  "rk_base": 256,
+  "rk_calc_patron": [
+   [
+    "s",
+    115
+   ],
+   [
+    "s",
+    115
+   ],
+   [
+    "e",
+    101
+   ],
+   [
+    "s",
+    115
+   ],
+   [
+    "s",
+    115
+   ]
+  ],
+  "rk_colisiones_q101": 0,
+  "rk_ejemplo_roll": null,
+  "abstracts": {
+   "assessment": {
+    "patron": "assessment",
+    "KMP": {
+     "ocurrencias": 36,
+     "comparaciones": 29246,
+     "ms": 1.9325850000200262,
+     "por_doc": [
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      8,
+      0,
+      3,
+      0,
+      1,
+      6,
+      12,
+      1,
+      1,
+      1
+     ]
+    },
+    "Boyer-Moore": {
+     "ocurrencias": 36,
+     "comparaciones": 4096,
+     "ms": 1.0461749999990388,
+     "por_doc": [
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      8,
+      0,
+      3,
+      0,
+      1,
+      6,
+      12,
+      1,
+      1,
+      1
+     ]
+    },
+    "Rabin-Karp": {
+     "ocurrencias": 36,
+     "comparaciones": 360,
+     "ms": 5.6693559999985155,
+     "por_doc": [
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      8,
+      0,
+      3,
+      0,
+      1,
+      6,
+      12,
+      1,
+      1,
+      1
+     ]
+    }
+   },
+   "ssess": {
+    "patron": "ssess",
+    "KMP": {
+     "ocurrencias": 38,
+     "comparaciones": 28895,
+     "ms": 1.9858949999616016,
+     "por_doc": [
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      8,
+      0,
+      4,
+      0,
+      1,
+      6,
+      13,
+      1,
+      1,
+      1
+     ]
+    },
+    "Boyer-Moore": {
+     "ocurrencias": 38,
+     "comparaciones": 6517,
+     "ms": 1.7316999999934524,
+     "por_doc": [
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      8,
+      0,
+      4,
+      0,
+      1,
+      6,
+      13,
+      1,
+      1,
+      1
+     ]
+    },
+    "Rabin-Karp": {
+     "ocurrencias": 38,
+     "comparaciones": 190,
+     "ms": 6.037061999961679,
+     "por_doc": [
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      8,
+      0,
+      4,
+      0,
+      1,
+      6,
+      13,
+      1,
+      1,
+      1
+     ]
+    }
+   },
+   "artificial intelligence": {
+    "patron": "artificial intelligence",
+    "KMP": {
+     "ocurrencias": 22,
+     "comparaciones": 29238,
+     "ms": 2.081065000027138,
+     "por_doc": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      2,
+      1,
+      1,
+      1,
+      1,
+      2,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+     ]
+    },
+    "Boyer-Moore": {
+     "ocurrencias": 22,
+     "comparaciones": 2566,
+     "ms": 0.6976340000051096,
+     "por_doc": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      2,
+      1,
+      1,
+      1,
+      1,
+      2,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+     ]
+    },
+    "Rabin-Karp": {
+     "ocurrencias": 22,
+     "comparaciones": 506,
+     "ms": 5.820685000003323,
+     "por_doc": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      2,
+      1,
+      1,
+      1,
+      1,
+      2,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+     ]
+    }
+   },
+   "generative": {
+    "patron": "generative",
+    "KMP": {
+     "ocurrencias": 11,
+     "comparaciones": 27825,
+     "ms": 1.8796250000150394,
+     "por_doc": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      0,
+      0,
+      0,
+      1,
+      7,
+      0,
+      1,
+      0,
+      0
+     ]
+    },
+    "Boyer-Moore": {
+     "ocurrencias": 11,
+     "comparaciones": 4189,
+     "ms": 1.122608000002856,
+     "por_doc": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      0,
+      0,
+      0,
+      1,
+      7,
+      0,
+      1,
+      0,
+      0
+     ]
+    },
+    "Rabin-Karp": {
+     "ocurrencias": 11,
+     "comparaciones": 110,
+     "ms": 6.224921000011818,
+     "por_doc": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      0,
+      0,
+      0,
+      1,
+      7,
+      0,
+      1,
+      0,
+      0
+     ]
+    }
+   },
+   "higher education": {
+    "patron": "higher education",
+    "KMP": {
+     "ocurrencias": 14,
+     "comparaciones": 28026,
+     "ms": 2.0134199999688462,
+     "por_doc": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      4,
+      3,
+      2,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      3
+     ]
+    },
+    "Boyer-Moore": {
+     "ocurrencias": 14,
+     "comparaciones": 4145,
+     "ms": 1.0513930000115579,
+     "por_doc": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      4,
+      3,
+      2,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      3
+     ]
+    },
+    "Rabin-Karp": {
+     "ocurrencias": 14,
+     "comparaciones": 224,
+     "ms": 5.998647000012625,
+     "por_doc": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      4,
+      3,
+      2,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      3
+     ]
+    }
+   }
+  },
+  "n_texto_completo": 1850341,
+  "bench": [
+   {
+    "patron": "ssess",
+    "m": 5,
+    "KMP": {
+     "ms": 135.41237299995146,
+     "comp": 1940972,
+     "occ": 1197,
+     "extra": null
+    },
+    "Boyer-Moore": {
+     "ms": 109.20022299995935,
+     "comp": 426801,
+     "occ": 1197,
+     "extra": null
+    },
+    "Rabin-Karp": {
+     "ms": 386.6743460000066,
+     "comp": 5985,
+     "occ": 1197,
+     "extra": 0
+    },
+    "Fuerza bruta": {
+     "ms": 163.64069600001585,
+     "comp": 1953551,
+     "occ": 1197,
+     "extra": null
+    }
+   },
+   {
+    "patron": "assessment",
+    "m": 10,
+    "KMP": {
+     "ms": 135.42028900002379,
+     "comp": 1972062,
+     "occ": 1031,
+     "extra": null
+    },
+    "Boyer-Moore": {
+     "ms": 67.802166999968,
+     "comp": 256401,
+     "occ": 1031,
+     "extra": null
+    },
+    "Rabin-Karp": {
+     "ms": 400.6434049999825,
+     "comp": 10310,
+     "occ": 1031,
+     "extra": 0
+    },
+    "Fuerza bruta": {
+     "ms": 168.4834850000243,
+     "comp": 1989639,
+     "occ": 1031,
+     "extra": null
+    }
+   },
+   {
+    "patron": "artificial intelligence",
+    "m": 23,
+    "KMP": {
+     "ms": 157.44658999994954,
+     "comp": 1971445,
+     "occ": 798,
+     "extra": null
+    },
+    "Boyer-Moore": {
+     "ms": 44.24864599997136,
+     "comp": 157900,
+     "occ": 798,
+     "extra": null
+    },
+    "Rabin-Karp": {
+     "ms": 406.7842840000253,
+     "comp": 18354,
+     "occ": 798,
+     "extra": 0
+    },
+    "Fuerza bruta": {
+     "ms": 168.78009100003055,
+     "comp": 2007201,
+     "occ": 798,
+     "extra": null
+    }
+   },
+   {
+    "patron": "generative artificial intelligence in higher education",
+    "m": 54,
+    "KMP": {
+     "ms": 130.00498700000662,
+     "comp": 1886883,
+     "occ": 0,
+     "extra": null
+    },
+    "Boyer-Moore": {
+     "ms": 31.620061000012356,
+     "comp": 123988,
+     "occ": 0,
+     "extra": null
+    },
+    "Rabin-Karp": {
+     "ms": 398.81427899996424,
+     "comp": 0,
+     "occ": 0,
+     "extra": 0
+    },
+    "Fuerza bruta": {
+     "ms": 160.6810789999713,
+     "comp": 1900835,
+     "occ": 0,
+     "extra": null
+    }
+   },
+   {
+    "patron": "teaching and learning practice in higher education institutions around the world",
+    "m": 80,
+    "KMP": {
+     "ms": 133.85334800000237,
+     "comp": 1969426,
+     "occ": 0,
+     "extra": null
+    },
+    "Boyer-Moore": {
+     "ms": 24.17940800000906,
+     "comp": 87463,
+     "occ": 0,
+     "extra": null
+    },
+    "Rabin-Karp": {
+     "ms": 403.5200720000489,
+     "comp": 0,
+     "occ": 0,
+     "extra": 0
+    },
+    "Fuerza bruta": {
+     "ms": 164.55846400003793,
+     "comp": 1996162,
+     "occ": 0,
+     "extra": null
+    }
+   }
+  ],
+  "crec": {
+   "tams": [
+    100000,
+    200000,
+    400000,
+    800000,
+    1850341
+   ],
+   "ms": {
+    "KMP": [
+     6.673296000030859,
+     13.864654000030896,
+     28.65403900000274,
+     56.00982300001078,
+     125.74369499998284
+    ],
+    "Boyer-Moore": [
+     1.646843000003173,
+     3.3196069999803512,
+     6.773758000008456,
+     12.661638999986735,
+     28.394000999981017
+    ],
+    "Rabin-Karp": [
+     21.815016000005016,
+     44.05635500000926,
+     86.39369000002262,
+     191.78473099998428,
+     401.7271980000032
+    ],
+    "Fuerza bruta": [
+     8.530380000024707,
+     19.575883000015892,
+     33.652926000002026,
+     69.11358299998938,
+     153.58727400001726
+    ]
+   }
+  },
+  "adv": {
+   "Texto 'a' x 100000, patron 'a'x49+'b'": {
+    "KMP": {
+     "ms": 13.247957000032784,
+     "comp": 199951,
+     "occ": 0
+    },
+    "Boyer-Moore": {
+     "ms": 28.606910999997126,
+     "comp": 99951,
+     "occ": 0
+    },
+    "Rabin-Karp": {
+     "ms": 20.044970000014928,
+     "comp": 0,
+     "occ": 0
+    },
+    "Fuerza bruta": {
+     "ms": 348.58210300001247,
+     "comp": 4997550,
+     "occ": 0
+    }
+   },
+   "Texto 'a' x 100000, patron 'a' x 50": {
+    "KMP": {
+     "ms": 12.062333999949715,
+     "comp": 100000,
+     "occ": 99951
+    },
+    "Boyer-Moore": {
+     "ms": 346.5133110000238,
+     "comp": 4997550,
+     "occ": 99951
+    },
+    "Rabin-Karp": {
+     "ms": 368.4295759999827,
+     "comp": 4997550,
+     "occ": 99951
+    },
+    "Fuerza bruta": {
+     "ms": 336.93889199997784,
+     "comp": 4997550,
+     "occ": 99951
+    }
+   },
+   "Texto aleatorio (4 letras) x 100000, patron 20": {
+    "KMP": {
+     "ms": 8.560502000023007,
+     "comp": 125070,
+     "occ": 0
+    },
+    "Boyer-Moore": {
+     "ms": 4.893165999988014,
+     "comp": 22043,
+     "occ": 0
+    },
+    "Rabin-Karp": {
+     "ms": 21.24534200004291,
+     "comp": 0,
+     "occ": 0
+    },
+    "Fuerza bruta": {
+     "ms": 11.028301000010288,
+     "comp": 133425,
+     "occ": 0
+    }
+   }
+  },
+  "pre": {
+   "10": {
+    "KMP": 0.0009076500020910316,
+    "Boyer-Moore": 0.002603350000640603,
+    "Rabin-Karp": 0.0009022999989838354,
+    "busq_ms": {
+     "KMP": 13.38694700001497,
+     "Boyer-Moore": 8.304024000040044,
+     "Rabin-Karp": 41.1802969999826
+    }
+   },
+   "100": {
+    "KMP": 0.0054439999985334,
+    "Boyer-Moore": 0.015951299999983348,
+    "Rabin-Karp": 0.006872649998967972,
+    "busq_ms": {
+     "KMP": 13.776034999978037,
+     "Boyer-Moore": 2.007654999999886,
+     "Rabin-Karp": 46.555474000001595
+    }
+   },
+   "1000": {
+    "KMP": 0.054107150000959336,
+    "Boyer-Moore": 0.19947010000009868,
+    "Rabin-Karp": 0.07167585000047438,
+    "busq_ms": {
+     "KMP": 14.932982000004813,
+     "Boyer-Moore": 1.30371800003104,
+     "Rabin-Karp": 40.95257199998059
+    }
+   },
+   "5000": {
+    "KMP": 0.2794504500002404,
+    "Boyer-Moore": 0.9419331999993119,
+    "Rabin-Karp": 0.3448350500008246,
+    "busq_ms": {
+     "KMP": 14.758610999990651,
+     "Boyer-Moore": 2.380413999958364,
+     "Rabin-Karp": 46.277110999994875
+    }
+   }
+  }
+ }
+}

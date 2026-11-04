@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Analisis de algoritmos en bibliometria - IA generativa</title>
+<style>
+:root{--azul:#1f4e79;--azul2:#2f6fa8;--gris:#f3f5f8;--borde:#d5dbe3;--txt:#1d2733;--ok:#2e7d32;--mal:#b3261e}
+*{box-sizing:border-box}body{margin:0;font-family:Georgia,'Times New Roman',serif;color:var(--txt);background:#fff}
+header{background:var(--azul);color:#fff;padding:18px 28px}header h1{margin:0;font-size:22px}header p{margin:4px 0 0;opacity:.85;font-size:14px}
+nav{display:flex;gap:4px;padding:0 20px;background:var(--gris);border-bottom:1px solid var(--borde);flex-wrap:wrap}
+nav button{background:none;border:none;padding:13px 18px;font:inherit;font-size:15px;cursor:pointer;color:#456;border-bottom:3px solid transparent}
+nav button.act{color:var(--azul);border-bottom-color:var(--azul);font-weight:bold}
+main{padding:22px 28px;max-width:1150px;margin:auto}section{display:none}section.act{display:block}
+h2{color:var(--azul);margin-top:0}.card{border:1px solid var(--borde);border-radius:8px;padding:14px 16px;margin:12px 0;background:#fff}
+button.p{background:var(--azul);color:#fff;border:none;border-radius:6px;padding:9px 18px;font:inherit;cursor:pointer}button.p:hover{background:var(--azul2)}
+button.s{background:#fff;border:1px solid var(--azul);color:var(--azul);border-radius:6px;padding:6px 12px;font:inherit;cursor:pointer;font-size:13px}
+table{border-collapse:collapse;width:100%;font-size:14px;margin:8px 0}th,td{border:1px solid var(--borde);padding:6px 8px;text-align:left}th{background:var(--gris)}
+td.n{text-align:right;font-variant-numeric:tabular-nums}.lista{max-height:340px;overflow:auto;border:1px solid var(--borde);border-radius:6px}
+.lista label{display:block;padding:6px 10px;border-bottom:1px solid #eef1f5;cursor:pointer;font-size:14px}.lista label:hover{background:var(--gris)}
+.lista small{color:#678}input[type=text],select{padding:9px 10px;border:1px solid var(--borde);border-radius:6px;font:inherit;font-size:15px}
+input[type=text]{width:340px;max-width:100%}.fila{display:flex;gap:12px;flex-wrap:wrap;align-items:center;margin:10px 0}
+mark{background:#ffe27a;padding:0 1px}.chip{display:inline-block;padding:2px 8px;border-radius:10px;font-size:12px;background:#e6eef7;color:var(--azul)}
+.chip.ia{background:#e6f3e8;color:var(--ok)}img{max-width:100%}.bar{height:9px;background:#dfe7f1;border-radius:5px;overflow:hidden}.bar i{display:block;height:100%;background:var(--azul2)}
+.err{color:var(--mal)}.mini{font-size:13px;color:#567}.grid3{display:grid;grid-template-columns:repeat(auto-fit,minmax(330px,1fr));gap:12px}
+</style></head>
+<body>
+<header><h1>Analisis de algoritmos en bibliometria</h1><p>Corpus controlado: 20 articulos sobre inteligencia artificial en educacion · Universidad del Quindio</p></header>
+<nav>
+ <button class="act" data-t="t1">1. Similitud textual</button><button data-t="t2">2. Clustering jerarquico</button>
+ <button data-t="t3">3. Busqueda de patrones</button><button data-t="t4">Acerca del proyecto</button>
+</nav>
+<main>
+<section id="t1" class="act">
+ <h2>Similitud entre abstracts</h2>
+ <p>Seleccione dos o mas articulos. Se calculan 4 algoritmos clasicos y 2 modelos de IA (embeddings). Todos devuelven un valor entre 0 (nada parecidos) y 1 (identicos).</p>
+ <div class="fila"><button class="s" onclick="selTodos(true)">Marcar todos</button><button class="s" onclick="selTodos(false)">Limpiar</button><span class="mini" id="contador"></span></div>
+ <div class="lista" id="lista"></div>
+ <div class="fila"><button class="p" onclick="calcSim()">Calcular similitud</button><span id="msg1" class="err"></span></div>
+ <div id="res1"></div>
+</section>
+<section id="t2">
+ <h2>Agrupamiento jerarquico (20 abstracts)</h2>
+ <p>Preprocesamiento (minusculas, sin palabras vacias) → vectores TF-IDF → distancia = 1 − coseno → 3 criterios de enlace → dendrograma. Se evalua con la correlacion cofenetica y el coeficiente Silhouette.</p>
+ <div class="fila"><button class="p" onclick="calcClu()">Ejecutar clustering</button><span id="msg2" class="mini"></span></div>
+ <div id="res2"></div>
+</section>
+<section id="t3">
+ <h2>Busqueda exacta de patrones</h2>
+ <p>Implementaciones propias de KMP, Boyer-Moore y Rabin-Karp (sin usar <code>find</code> ni <code>indexOf</code>).</p>
+ <div class="fila">
+  <input type="text" id="patron" placeholder="Ej.: assessment" value="assessment">
+  <select id="alg"><option>Todos</option><option>KMP</option><option>Boyer-Moore</option><option>Rabin-Karp</option></select>
+  <select id="campo"><option value="abstract">En abstracts</option><option value="title">En titulos</option><option value="authors">En autores</option></select>
+  <label><input type="checkbox" id="ign" checked> Ignorar mayusculas</label>
+  <button class="p" onclick="buscar()">Buscar</button></div>
+ <div id="res3"></div>
+</section>
+<section id="t4">
+ <h2>Acerca del proyecto</h2>
+ <div class="card"><b>Corpus:</b> 20 articulos cientificos (PDF) sobre IA en educacion; el analisis se hace sobre el abstract. Titulo y autores se usan para cruzar informacion.</div>
+ <div class="card"><b>Algoritmos propios:</b> Levenshtein, Needleman-Wunsch, Jaccard, TF-IDF + coseno, clustering Single/Complete/Average, KMP, Boyer-Moore y Rabin-Karp. Los modelos de IA (Word2Vec skip-gram y PPMI+SVD) se entrenaron con numpy sobre el texto de los 20 articulos.</div>
+ <div class="card"><b>Uso de IA generativa:</b> se uso un asistente de IA como apoyo para programar, probar y documentar. El diseno algoritmico y su analisis se explican en el documento tecnico.</div>
+</section>
+</main>
+<script>
+const $=s=>document.querySelector(s);let corpus=[];
+document.querySelectorAll('nav button').forEach(b=>b.onclick=()=>{document.querySelectorAll('nav button,section').forEach(e=>e.classList.remove('act'));b.classList.add('act');$('#'+b.dataset.t).classList.add('act')});
+async function post(u,d){const r=await fetch(u,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(d)});return [r.ok,await r.json()]}
+const esc=s=>s.replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));
+async function init(){corpus=await (await fetch('/api/corpus')).json();
+ $('#lista').innerHTML=corpus.map(d=>`<label><input type="checkbox" value="${d.id}" ${d.id==12||d.id==20?'checked':''} onchange="cont()"> <b>${d.id}.</b> ${esc(d.title)} <small>(${esc(d.authors.split(';')[0])} et al., ${d.year})</small></label>`).join('');cont()}
+function cont(){$('#contador').textContent=document.querySelectorAll('#lista input:checked').length+' seleccionados'}
+function selTodos(v){document.querySelectorAll('#lista input').forEach(c=>c.checked=v);cont()}
+async function calcSim(){$('#msg1').textContent='';const ids=[...document.querySelectorAll('#lista input:checked')].map(c=>+c.value);
+ const [ok,r]=await post('/api/similitud',{ids});if(!ok){$('#msg1').textContent=r.error;return}
+ let h='<h3>Resultados por pareja</h3>';
+ r.pares.forEach(p=>{h+=`<div class="card"><b>Articulo ${p.a}</b> vs <b>Articulo ${p.b}</b><table><tr><th>Algoritmo</th><th>Tipo</th><th>Similitud</th><th style="width:30%"></th><th>ms</th></tr>`;
+  r.algoritmos.forEach(a=>{const v=p.valores[a.nombre];h+=`<tr><td>${a.nombre}</td><td><span class="chip ${a.tipo.startsWith('IA')?'ia':''}">${a.tipo}</span></td><td class="n">${v.toFixed(3)}</td><td><div class="bar"><i style="width:${Math.min(100,v*100)}%"></i></div></td><td class="n">${p.ms[a.nombre]}</td></tr>`});h+='</table></div>'});
+ $('#res1').innerHTML=h}
+async function calcClu(){$('#msg2').textContent='Calculando...';const [ok,r]=await post('/api/clustering',{});$('#msg2').textContent='';
+ let h=`<div class="card"><b>Mas coherente segun las metricas:</b> ${r.mejor}</div><div class="card"><table><tr><th>Algoritmo</th><th>Correlacion cofenetica</th><th>Silhouette medio (k=2..8)</th><th>Tiempo (ms)</th></tr>`;
+ r.resultados.forEach(x=>h+=`<tr><td>${x.nombre}</td><td class="n">${x.cpcc}</td><td class="n">${x.sil_medio}</td><td class="n">${x.ms}</td></tr>`);h+='</table></div><div class="grid3">';
+ r.resultados.forEach(x=>h+=`<div class="card"><img src="data:image/png;base64,${x.imagen}"></div>`);$('#res2').innerHTML=h+'</div>'}
+async function buscar(){const [ok,r]=await post('/api/busqueda',{patron:$('#patron').value,algoritmo:$('#alg').value,campo:$('#campo').value,ignorar_mayusculas:$('#ign').checked});
+ if(!ok){$('#res3').innerHTML='<p class="err">'+r.error+'</p>';return}
+ let h='<div class="card"><table><tr><th>Algoritmo</th><th>Ocurrencias</th><th>Comparaciones</th><th>Tiempo (ms)</th><th>Extra</th></tr>';
+ Object.entries(r.resumen).forEach(([k,v])=>h+=`<tr><td>${k}</td><td class="n">${v.ocurrencias}</td><td class="n">${v.comparaciones}</td><td class="n">${v.ms}</td><td>${v.colisiones!==undefined?'colisiones de hash: '+v.colisiones:''}</td></tr>`);
+ h+='</table>'+(r.consistente?'':'<p class="err">Advertencia: los algoritmos no coinciden.</p>')+'</div>';
+ if(!r.documentos.length)h+='<p>No se encontraron coincidencias.</p>';
+ r.documentos.forEach(d=>{h+=`<div class="card"><b>Articulo ${d.id}:</b> ${esc(d.title)}<br><span class="mini">${esc(d.authors)}</span><br><span class="chip">${d.posiciones.length} coincidencia(s)</span> <span class="mini">posiciones: ${d.posiciones.slice(0,12).join(', ')}${d.posiciones.length>12?'...':''}</span>`;d.fragmentos.forEach(f=>h+=`<div class="mini" style="margin-top:6px">${f}</div>`);h+='</div>'});
+ $('#res3').innerHTML=h}
+init();
+</script></body></html>
